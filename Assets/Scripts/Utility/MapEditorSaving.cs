@@ -5,7 +5,7 @@ using System.Collections.Generic;
 using System.Xml;
 using System.Xml.Serialization;
 using System.IO;
-public static class Save
+public static class MapEditorSaving
 {
 	#region Fields
 	private const string fileExtension = ".xml";	//Should always be .xml, so we make it const
