@@ -1,7 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-public class TileSet : ScriptableObject {
+public class PartialTileSet : TileSetBase {
 	[SerializeField]
 	private Sprite empty = null;
 	[SerializeField]
